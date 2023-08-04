@@ -34,8 +34,8 @@ public class Principal {
          double areaX = triangleX.area();
          double areaY = triangleY.area();
 
-         System.out.println("A area do triangulo é  igual:" + areaX);
-         System.out.println("A area do triangulo 2 é  igual:" + areaY);
+         System.out.println("A area do triangulo X igual:" + areaX);
+         System.out.println("A area do triangulo Y igual:" + areaY);
         
         if(areaX > areaY) {
         	System.out.println("A area do triangulo x é maior");
