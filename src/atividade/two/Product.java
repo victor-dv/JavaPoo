@@ -1,22 +1,31 @@
 package atividade.two;
 
 public class Product {
-	public String nomeTv;
-	public double priceTv;
-	public int quantityTv;
+	public String nome;
+	public double preco;
+	public int quantidade;
+	public double valorT;
+	public int prodAdd;
 	
 	public String nomeP() {
-		return nomeTv = "Tv";
-		
+		return nome;
 	}
 	
-	public double valor() {
-		return priceTv = 1000.00;
+	public double valorTp() {
+		return quantidade * preco;
+	    
+	
 	}
 	
-	public int quanti() {
-		return quantityTv = 5;
+	public void addP(int quantidade) {
+		this.quantidade += quantidade;
 	}
+	
+	public void endP(int quantidade) {
+		this.quantidade -= quantidade;
+	}
+	
+
 
 	
 	
